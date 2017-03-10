@@ -161,7 +161,7 @@
 				TargetAttributes = {
 					AC69E2B61DED7BA000A795D4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BQQ2Y9B27K;
+						DevelopmentTeam = 8V7A9F9SCJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -314,13 +314,14 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BQQ2Y9B27K;
+				DEVELOPMENT_TEAM = 8V7A9F9SCJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KKZip/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kkserver.KKZip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -333,7 +334,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BQQ2Y9B27K;
+				DEVELOPMENT_TEAM = 8V7A9F9SCJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -366,6 +367,7 @@
 				AC69E2C11DED7BA000A795D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
